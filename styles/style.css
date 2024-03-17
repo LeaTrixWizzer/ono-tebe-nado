@@ -1,103 +1,97 @@
 .header {
     display: flex;
-    padding: 92px 24px 96px;
     height: 105px;
-    flex-wrap: nowrap;
-    align-items: center;
+    margin: 92px 24px 0;
 }
 
-.header_menu {
-    width: 391.48px;
-    height: 22px;
-    padding-left: 26px;
+.header__menu {
+    padding: 44px 36px 39px 26px;
 }
 
-.header_menu-list {
+.header__links-list {
     display: flex;
     flex-direction: row;
-    gap: 32px;
     white-space: nowrap;
-}
-
-.header_menu-link {
-    color: #000;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 21.13px;
-}
-
-.header_menu-link-active .header_menu-link {
-    text-decoration: none;
-    list-style: none;
-}
-
-.header_menu-link-inactive {
-    letter-spacing: 1%;
-    text-decoration: underline;
     list-style: circle;
+    column-gap: 25px;
+    height: 22px;
+    width: 392px;
 }
 
-.image_logo-black {
-    padding-left: 36px;
+.header__links-list-item {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000; 
 }
 
-.logo-black {
+.header__link {
+    text-decoration: none;
+    border-bottom: 1px #000 solid;
+}
+
+.header__link_active .header__links-list{
+    list-style-type: none;
+}
+
+.header__logo {
     width: 148px;
     height: 105px;
 }
 
-.header_contacts {
-    width: 240.52px;
-    height: 98px;
-    padding-left: 184px   
-
+.header__logo-image {
+    display: flex;
+    align-items: center;
+    width: 100%;
 }
 
-.text-contacts {
-    color: #000;
-    font-size: 18px;
+.header__address {
+    width: 450px;
+    padding: 5px 25px 2px 184px;
+}
+
+.text__address {
+    font-style: normal;
     font-weight: 400;
-    line-height: 24.3px;
+    font-size: 18px;
+    flex-wrap: nowrap;
+    color: #000;
 }
 
-.contacts_phone-namber {
-    letter-spacing: 1%;
-    width: 240px;
+.phone-number,
+.email-address {
+    text-decoration: none;
+    border-bottom: 1px #000 solid;
     height: 24px;
-    text-decoration: underline;
-}
-
-.contacts_email {
-    letter-spacing: 1%;
     width: 240px;
-    height: 24px;
-    text-decoration: underline;
+    letter-spacing: 1%;
 }
 
-.contacts_address {
+.location {
     width: 237px;
     height: 49px;
 }
 
 .cover {
-    background-color: yellow;
-    height: 757px;
+    background-color: gold;
+    height: 757x;
+    padding-bottom: 179px;
 }
 
 .lots {
-    background-color: green;
-    padding: 179px 24px 146px;
+    background-color: gray;
     height: 692px;
+    padding: 0 24px 146px;
 }
 
 .about {
-    background-color: yellow;
-    padding: 0 24px 180px;
+    background-color: gold;
     height: 595px;
+    padding: 0 24px 180px;
 }
 
 .footer {
-    background-color: green;
-    padding: 0 50px 88px;
+    background-color: gray;
     height: 98px;
+    padding: 0 50px 88px;
 }
