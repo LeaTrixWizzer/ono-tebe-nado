@@ -13,14 +13,14 @@
     <header class="header">
       <nav class="header__menu">
         <ul class="header__links-list">
-          <li> 
-            <a class="header__links-list-item header__link_active">главная</a>
+          <li class="header__links-list-item header__links-list-item_no-bullit"> 
+            <a class="header__link_active">главная</a>
           </li>
-          <li>
-            <a class="header__links-list-item header__link" href="#0">посмотреть лоты</a>
+          <li class="header__links-list-item">
+            <a class="header__link" href="#lots">посмотреть лоты</a>
           </li>
-          <li>
-            <a class="header__links-list-item header__link" href="#0">об аукционе</a>
+          <li class="header__links-list-item">
+            <a class="header__link" href="#about">об аукционе</a>
           </li>
         </ul>
       </nav>
@@ -46,27 +46,26 @@
     </header>
     <main>
       <section class="cover">
+        <div class="overlay"></div>
         <h1 class="cover__title">
           <span class="span aligned-text">
-            <span class="letter-spacing-extended_text">ОН</span>
-            <span class="no-letter-spacing">О</span>
+            о<span class="letter-spacing-extended_text">но</span>
           </span>
           <span class="span aligned-text_center">
-            <span class="letter-spacing-extended_text">ТЕБ</span>
-            <span class="no-letter-spacing">Е</span>
+            те<span class="letter-spacing-extended_text">бе</span>
           </span>
           <span class="span aligned-text_right">
-            <span class="letter-spacing-extended_text">НАД</span>
-            <span class="no-letter-spacing">О</span>
+            <span class="letter-spacing-extended_text">н</span>
+            ад<span class="no-letter-spacing">о</span>
           </span>
         </h1>
         <div class="cover__description">
-          <h3 class="cover__description-text">Аукцион вещей, вкоторые никто не верил</h3>
+          <p class="cover__description-text">Аукцион вещей, вкоторые никто не верил</p>
           <button class="bet-button">Сделать ставку</button>
         </div>
       </section>
-      <section class="lots"></section>
-      <section class="about"></section>
+      <section class="lots" id="lots"></section>
+      <section class="about" id="about"></section>
     </main>
     <footer class="footer"></footer>
   </body>
