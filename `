@@ -1,0 +1,35 @@
+[33mcommit 3d79114cc68d3684a467fb9cd9ada7a65550a24e[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Anastasiia Yushkova <leatrix5@yandex.ru>
+Date:   Tue Mar 19 19:41:21 2024 +0400
+
+    update header and cover
+
+[33mcommit bdd5cfa06d751338041f44121e438d42fc080ee3[m
+Author: Anastasiia Yushkova <leatrix5@yandex.ru>
+Date:   Sun Mar 17 19:55:48 2024 +0400
+
+    create cover
+
+[33mcommit 0e02f766d8dbc6c0f4d863e829ee472ce29ba7bc[m
+Author: Anastasiia Yushkova <leatrix5@yandex.ru>
+Date:   Sun Mar 17 12:44:21 2024 +0400
+
+    update create header
+
+[33mcommit 4e2af5998dd2e931ddcb863c1b4ecdc3bf841ea3[m
+Author: Anastasiia Yushkova <leatrix5@yandex.ru>
+Date:   Sat Mar 16 22:49:17 2024 +0400
+
+    create heading
+
+[33mcommit b145ce57820910ac4ee2928973481c6626e31c31[m
+Author: Anastasiia Yushkova <leatrix5@yandex.ru>
+Date:   Fri Mar 15 23:47:18 2024 +0400
+
+    general setting
+
+[33mcommit d82ab2172dbf27f2dbaf1d140d45fa6ec7357d8b[m
+Author: LeaTrixWizzer <163456401+LeaTrixWizzer@users.noreply.github.com>
+Date:   Fri Mar 15 21:16:19 2024 +0400
+
+    Initial commit
