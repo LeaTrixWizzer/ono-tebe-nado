@@ -13,13 +13,13 @@
     <header class="header">
       <nav class="header__menu">
         <ul class="header__links-list">
-          <li class="links-list-item header__links-list-item_no-bullit"> 
-            <a class="link_active">главная</a>
+          <li class="header__links-list-item_no-bullit"> 
+            <a class="link link_active">главная</a>
           </li>
-          <li class="links-list-item">
+          <li>
             <a class="link" href="#lots">посмотреть лоты</a>
           </li>
-          <li class="links-list-item">
+          <li>
             <a class="link" href="#about">об аукционе</a>
           </li>
         </ul>
@@ -30,14 +30,14 @@
         src="./images/logo-black.svg"
         alt="темный логотип ОНО-ТЕБЕ-НАДО"/>
       </a>
-      <address class="header__address text__address ">
+      <address class="header__address text__address">
         <a
-        class="phone-number"
+        class="address__link"
         href="tel:+99995555555">
         +9 999 555 5555
         </a><br>
         <a
-        class="email-address"
+        class="address__link"
         href="mailto:info@sobaka.ge">
         info@sobaka.ge
         </a><br>
@@ -48,22 +48,14 @@
       <section class="cover">
         <div class="overlay"></div>
         <h1 class="cover__title">
-          <span class="span aligned-text">
-            о<span class="letter-spacing-extended_text">но</span>
-          </span>
-          <span class="span aligned-text_center">
-            те<span class="letter-spacing-extended_text">бе</span>
-          </span>
-          <span class="span aligned-text_right">
-            <span class="no-letter-spacing">
-              <span class="letter-spacing-extended_text">н</span>
-            </span>
-            ад<span class="no-letter-spacing">о</span>
+          <span class="span">о<span class="letter-spacing-extended">но</span></span>
+          <span class="span aligned-text_center">те<span class="letter-spacing-extended">бе</span></span>
+          <span class="span aligned-text_right letter-spacing-extended">н<span class="letter-small-spacing">ад<span class="no-letter-spacing">о</span></span>
           </span>
         </h1>
         <div class="cover__description">
           <p class="cover__description-text">Аукцион вещей, в которые никто не верил</p>
-          <button class="bet-button">Сделать ставку</button>
+          <button class="bet-button" type="button">Сделать ставку</button>
         </div>
       </section>
       <section class="lots" id="lots">
@@ -164,12 +156,12 @@
     <footer class="footer">
       <address class="footer_address text__address">
         <a
-        class="phone-number"
+        class="address__link"
         href="tel:+99995555555">
         +9 999 555 5555
         </a><br>
         <a
-        class="email-address"
+        class="address__link"
         href="mailto:info@sobaka.ge">
         info@sobaka.ge
         </a><br>
@@ -177,13 +169,13 @@
       </address>
       <nav class="footer__menu">
         <ul class="footer__links-list">
-          <li class="links-list-item"> 
-            <a class="link_active">главная</a>
+          <li> 
+            <a class="link link_active">главная</a>
           </li>
-          <li class="links-list-item">
+          <li>
             <a class="link" href="#lots">посмотреть лоты</a>
           </li>
-          <li class="links-list-item">
+          <li>
             <a class="link" href="#about">об аукционе</a>
           </li>
         </ul>
