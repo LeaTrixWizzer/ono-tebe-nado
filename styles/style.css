@@ -93,45 +93,45 @@
     color: #fff;
     text-transform: uppercase;
     position: relative;
-  }
+    z-index: 1;
+}
   
-  .cover__title {
+.cover__title {
     font-size: 100px;
     font-weight: 700;
     line-height: 115%;
     text-transform: uppercase;
     position: relative;
-    z-index: 1;
     letter-spacing: 0.3em;
-  }
+}
   
-  .letter-spacing-extended {
+.letter-spacing-extended {
     letter-spacing: 0.6em;
-  }
+}
   
-  .span {
+.span {
     display: block;
     padding-bottom: 8px;
-  }
+}
   
-  .aligned-text_center {
+.aligned-text_center {
     text-align: center;
-  }
+}
   
-  .aligned-text_right {
+.aligned-text_right {
     text-align: right;
     padding-bottom: 0;
-  }
+}
   
-  .letter-small-spacing {
+.letter-small-spacing {
     letter-spacing: 0.3em;
-  }
+}
   
-  .no-letter-spacing {
+.no-letter-spacing {
     letter-spacing: 0;
-  }
+}
   
-  .cover__description {
+.cover__description {
     display: flex; 
     flex-direction: row; 
     min-height: 51px;
@@ -139,9 +139,9 @@
     padding-top: 130px; 
     justify-content: space-between; 
     align-items: center; 
-  }
+}
   
-  .cover__description-text {
+.cover__description-text {
     padding-left: 28px;
     font-weight: 400; 
     font-size: 22px; 
@@ -149,9 +149,9 @@
     color: #FFF; 
     word-spacing: 18px; 
     text-transform: uppercase; 
-  }
+}
   
-  .bet-button {
+.bet-button {
     background-color: transparent; 
     width: 256px; 
     min-height: 51px; 
@@ -162,9 +162,8 @@
     color: #FFF; 
     text-align: center; 
     text-transform: uppercase;
-  }
+}
   
-
 .lots {
     margin: 179px 24px 0;
 }
@@ -208,6 +207,9 @@
     z-index: 1;
     width: 334px;
     justify-content: space-between;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .card__title {
@@ -236,12 +238,6 @@
 
 .card_type_picture {
     background-image: url(../images/card-lot-03.jpg);
-}
-
-.card {
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
 }
 
 .lots__look-more-link {
