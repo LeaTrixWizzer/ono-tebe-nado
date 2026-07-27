@@ -7,6 +7,19 @@
   flex-direction: column;
 }
 
+/* ПАТТЕРНЫ */
+
+.overlay {
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0);
+  opacity: 60%;
+}
+
 /* ШАПКА САЙТА */
 
 .header {
@@ -97,17 +110,6 @@
   background-repeat: no-repeat;
 }
 
-.overlay {
-  position: absolute;
-  z-index: 0;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgb(0, 0, 0);
-  opacity: 60%;
-}
-
 .cover__title {
   position: relative;
   z-index: 1;
@@ -180,6 +182,94 @@
 
 .lots {
   margin: 179px 24px 146px;
+}
+
+.lots__heading {
+  margin: 0 0 27px 40px;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 100%;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  letter-spacing: 0;
+}
+
+.lots__card-list {
+  margin-bottom: 42px;
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  flex-grow: 1;
+}
+
+.lots__card-list-item {
+  list-style-type: none;
+}
+
+.card-link {
+  display: block;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.card {
+  position: relative;
+  width: 334px;
+  height: 563px;
+  padding: 60px 40px 48px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card_type_film {
+  background-image: url(../images/card-lot-01.jpg);
+}
+
+.card_type_book {
+  background-image: url(../images/card-lot-02.jpg);
+}
+
+.card_type_picture {
+  background-image: url(../images/card-lot-03.jpg);
+}
+
+.card__title {
+  position: relative;
+  z-index: 1;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 120%;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  letter-spacing: 0;
+  text-decoration: underline;
+}
+
+.card__text {
+  position: relative;
+  z-index: 1;
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  color: rgb(255, 255, 255);
+  letter-spacing: 0;
+}
+
+.lots__look-more-link {
+  margin-left: 40px;
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
 }
 
 /* СЕКЦИЯ ОБ АУКЦИОНЕ */
