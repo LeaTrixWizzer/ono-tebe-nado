@@ -37,7 +37,7 @@
   border-bottom: 1px solid rgb(0, 0, 0);
   font-family: Raleway, sans-serif;
   font-weight: 400;
-  font-size: 18;
+  font-size: 18px;
   line-height: 100%;
   color: rgb(0, 0, 0);
   letter-spacing: 1%;
@@ -67,7 +67,7 @@
 .address {
   font-family: Raleway, sans-serif;
   font-weight: 400;
-  font-size: 18;
+  font-size: 18px;
   line-height: 24.3px;
   color: rgb(0, 0, 0);
   letter-spacing: 0;
@@ -90,7 +90,90 @@
 /* СЕКЦИЯ С ЗАГОЛОВКОМ */
 
 .cover {
-  padding: 165px 50px 51px;
+  position: relative;
+  padding: 165px 25px 51px 50px;
+  background-image: url(../images/cover.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.overlay {
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0);
+  opacity: 60%;
+}
+
+.cover__title {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.aligned-text {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 100%;
+  color: rgb(255, 255, 255);
+  letter-spacing: 30%;
+  text-transform: uppercase;
+  display: block;
+}
+
+.aligned-text_center {
+  margin: 33px 0 20px 290px;
+}
+
+.aligned-text_right {
+  text-align: right;
+}
+
+.letter-spacing-extended {
+  letter-spacing: 60%;
+}
+
+.cover__description {
+  margin-top: 135px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 97px;
+}
+
+.cover__description-text {
+  position: relative;
+  z-index: 1;
+  margin-left: 30px;
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  word-spacing: 15px;
+}
+
+.bet-button {
+  position: relative;
+  z-index: 1;
+  border: 1px solid rgb(255, 255, 255);
+  width: 256px;
+  height: 51px;
+  background-color: transparent;
+  font-family: Raleway, sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 100%;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  letter-spacing: 0;
+  cursor: pointer;
 }
 
 /* СЕКЦИЯ С ЛОТАМИ */
