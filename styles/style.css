@@ -1,7 +1,7 @@
 .page {
   font-family: Raleway, sans-serif;
   font-weight: 400;
-  font-size: 18;
+  font-size: 18px;
   color: rgb(0, 0, 0);
   display: flex;
   flex-direction: column;
@@ -11,6 +11,73 @@
 
 .header {
   margin: 92px 24px 96px;
+  display: flex;
+  flex-direction: row;
+}
+
+.header__menu {
+  margin: 44px 40px 0 27px;
+}
+
+.header__links-list {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+}
+
+.header__links-list-item {
+  list-style-type: circle;
+}
+
+.header__links-list-item_no-bullit {
+  list-style-type: none;
+}
+
+.header__link {
+  border-bottom: 1px solid rgb(0, 0, 0);
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+  font-size: 18;
+  line-height: 100%;
+  color: rgb(0, 0, 0);
+  letter-spacing: 1%;
+  text-decoration: none;
+}
+
+.header__link_active {
+  border-bottom: none;
+}
+
+.header__logo {
+  cursor: pointer;
+}
+
+.header__logo-image {
+  width: 133px;
+}
+
+.header__address {
+  margin-top: 5px;
+  margin-left: 192px;
+  max-width: 230px;
+  display: flex;
+  flex-direction: column;
+}
+
+.address {
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+  font-size: 18;
+  line-height: 24.3px;
+  color: rgb(0, 0, 0);
+  letter-spacing: 0;
+  text-decoration: none;
+}
+
+.address:nth-child(1),
+.address:nth-child(2) {
+  width: fit-content;
+  border-bottom: 1px solid rgb(0, 0, 0);
 }
 
 /* ОСНОВНАЯ ЧАСТЬ САЙТА */
