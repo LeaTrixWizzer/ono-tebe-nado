@@ -1,1 +1,45 @@
-/* место для вашего кода */
+.page {
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+  font-size: 18;
+  color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+}
+
+/* ШАПКА САЙТА */
+
+.header {
+  margin: 92px 24px 96px;
+}
+
+/* ОСНОВНАЯ ЧАСТЬ САЙТА */
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+/* СЕКЦИЯ С ЗАГОЛОВКОМ */
+
+.cover {
+  padding: 165px 50px 51px;
+}
+
+/* СЕКЦИЯ С ЛОТАМИ */
+
+.lots {
+  margin: 179px 24px 146px;
+}
+
+/* СЕКЦИЯ ОБ АУКЦИОНЕ */
+
+.about {
+  margin: 0 24px;
+}
+
+/* ПОДВАЛ САЙТА */
+
+.footer {
+  margin: 180px 24px 88px;
+}
