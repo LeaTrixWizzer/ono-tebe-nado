@@ -276,6 +276,55 @@
 
 .about {
   margin: 0 24px;
+  display: grid;
+  grid-template-columns: 240px 693px;
+  gap: 120px;
+}
+
+.about__logo {
+  margin: 35px 0 0 47px;
+  border-radius: 50%;
+  width: 240px;
+  height: 240px;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about__logo-image {
+  width: 142px;
+}
+
+.about__column {
+  margin: 138px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.about__title {
+  margin-bottom: 78px;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 100%;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  letter-spacing: 0;
+}
+
+.about__text {
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: rgb(0, 0, 0);
+  letter-spacing: 1%;
+}
+
+.about__text:last-child {
+  letter-spacing: 0;
 }
 
 /* ПОДВАЛ САЙТА */
